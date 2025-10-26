@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(36, 40, 42);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 20px;
+}
+.logo{
+    font: 1.3em sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+   
+
+}
+.logo span{
+    color: green
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.header ul li{
+    cursor: pointer;
+    font-weight: 600;
+}  
+.header ul li:hover{
+    color: rgb(0, 255, 136);
+    transition: 0.3s;
+    
+} 

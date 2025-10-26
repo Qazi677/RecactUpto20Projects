@@ -1,0 +1,58 @@
+.about-page {
+  font-family: Arial, sans-serif;
+  padding: 50px 80px;
+  background: #f9f9f9;
+  color: #222;
+}
+
+/* Hero */
+.about-hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  color: #00c4ff;
+  margin-bottom: 15px;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Content Section */
+.about-content {
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 700px;
+}
+
+.about-text h2 {
+  margin-bottom: 10px;
+  color: #00c4ff;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-text li {
+  font-size: 1rem;
+  margin: 8px 0;
+  color: #333;
+}
